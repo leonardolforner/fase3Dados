@@ -3,15 +3,15 @@ import pandas as pd
 # ================================
 # CONFIG: input/output paths
 # ================================
-PATH_2023 = "data/raw/Ano-2023.csv"
-PATH_2024 = "data/raw/Ano-2024.csv"
-PATH_DEPUTADOS = "data/raw/Deputados.csv"
+PATH_2023 = "Ano-2023.csv"
+PATH_2024 = "Ano-2024.csv"
+PATH_DEPUTADOS = "Deputados.csv"
 
-OUT_FACT_DESPESAS = "data/out/fact_despesas_2023_2024.csv"
-OUT_DIM_DEPUTADO = "data/out/dim_deputado.csv"
-OUT_DIM_TEMPO = "data/out/dim_tempo.csv"
-OUT_DIM_SUBCOTA = "data/out/dim_subcota.csv"
-OUT_FACT_DESPESAS_DEP = "data/out/fact_despesas_2023_2024_com_deputado.csv"  # optional
+OUT_FACT_DESPESAS = "fact_despesas_2023_2024.csv"
+OUT_DIM_DEPUTADO = "dim_deputado.csv"
+OUT_DIM_TEMPO = "dim_tempo.csv"
+OUT_DIM_SUBCOTA = "dim_subcota.csv"
+OUT_FACT_DESPESAS_DEP = "fact_despesas_2023_2024_com_deputado.csv"  # optional
 
 # ================================
 # 1. Load raw data
